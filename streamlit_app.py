@@ -64,3 +64,5 @@ my_cur.execute("select * from fruit_load_list")
 my_data_rows = my_cur.fetchall()
 streamlit.text("The fruit load list:")
 streamlit.text(my_data_rows)
+
+add_my_fruit=add_my_fruit.set_index('Fruit')
